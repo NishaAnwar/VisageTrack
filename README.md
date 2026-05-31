@@ -5,7 +5,7 @@
 face_recognition_project/
 │
 ├── main.py                          ← Run this to launch the app
-├── db.py                            ← CSV-based data storage (replaces MySQL)
+├── db.py                            ← CSV-based data storage
 ├── student.py                       ← Student management
 ├── train.py                         ← Train face recognition model
 ├── face_recognition_module.py       ← Live face recognition + attendance marking
@@ -14,7 +14,7 @@ face_recognition_project/
 ├── help_module.py                   ← Help import helper
 ├── requirements.txt                 ← Python dependencies
 │
-├── haarcascade_frontalface_default.xml   ← PUT THIS HERE (download from OpenCV)
+├── haarcascade_frontalface_default.xml 
 │
 ├── data/                            ← Face images stored here automatically
 ├── trained_model/                   ← recognizer.xml saved here after training
