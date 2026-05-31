@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+
+# Data and model files (too large for GitHub)
+data/
+trained_model/
+attendance_records/
+
+# Images folder (personal/large files)
+images/
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
