@@ -16,13 +16,11 @@ class Developer:
             "Face Recognition Based Attendance System\n\n"
             "Developed by:\n"
             "  • Nisha Anwar\n"
-            "  • Areej Saqib\n\n"
             "This system uses OpenCV's LBPH face recognizer\n"
             "and Haar Cascade classifier for real-time face detection.\n\n"
             "Student data and attendance records are stored\n"
-            "locally using CSV files — no database required.\n\n"
-            "University of Engineering and Technology, Lahore"
-        )
+            "locally using CSV files.\n\n"
+                   )
 
         Label(self.root, text=text,
               font=("Arial", 13), bg="#1a1a2e", fg="#cccccc",
